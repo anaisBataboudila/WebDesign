@@ -1,0 +1,22 @@
+Feedback : 
+
+Le design de la page a coder est très bon ! J'ai toutefois modifié certains élèments qui, selon moi, permettent d'améliorer la lecture pour le visiteur. 
+
+
+1. Afin que le visiteur puisse reconnaître facilement les boutons entre eux (vu qu'il y a de nombreuses sortes), l'idée est de leur fixer une typologie 
+propre à leur utilisation. Les  boutons "learn more" possèdent tous la même favicon de fin, les boutons bleus sont traités de la même manière et 
+les boutons "Buy now" ne changent pas de favicone non plus. De plus, pour améliorer la lecture, les boutons en fin de paragraphe sont préférablement 
+aligner à droite. De cette manière, une fois que le visiteur a terminé de lire, ses yeux et sa main prête au clic sont plus vite attirés par le bouton 
+plutôt que de devoir revenir sur la gauche pour cliquer (contre-sens de lecture)
+
+2. Les boutons "play vidéo" étaient pour moi peu nécessaire dans l'optique que les vidéos au scroll se lance automatiquement en mode muted. 
+Dès lors, ceci évite à l'utilisateur de cliquer sur la vidéo ou de potentiellement, passer à côté. 
+
+3. Les pointillés qui rejoignent les differents bloc "Tools", "features", "technology" portaient à confusion pour moi. A la première lecture, on a 
+l'impression qu'ils représentent le fil d'Ariane et que les blocs sont liés entre eux alors qu'il ne me semble pas que ce soit le cas. 
+C'est pourquoi j'ai préféré laisser les différentes sections entre ces blocs vides. 
+
+4. Côté responsive, pour le bloc 'Technology - We use the latest technologies on the market', les cards se superposent. C'est un choix délibéré
+que de laisser les cards comme ceci, ça fait echo à la mise en page du premier bloc 'Tools' et de l'image en superposition sur les 
+'progress-bar'. Cela étant, ici ca match bien parce que les cards ne sont pas 'trop' chargées en contenu. Si au contraire, cela avait été le cas, 
+le responsive aurait du être amélioré afin de ne perdre aucune de leur lisibilité. 

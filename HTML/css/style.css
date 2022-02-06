@@ -1,0 +1,230 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;;
+}
+
+.text-xs{
+    font-size: 0.600rem;
+}
+
+.text-s{
+    font-size: 0.9375rem;
+}
+
+.text-m{
+    font-size: 1.00rem;
+}
+.text-l{
+    font-size: 1.95rem;
+}
+
+.newblue {
+    background-color: #04003f;
+}
+
+.cyan{
+    background-color: #03d8a6;
+}
+
+.text-cyan{
+    color: #03d8a6;
+}
+
+li{
+    list-style-type: none;
+}
+
+.border1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.border2 {
+    border-bottom: 1px solid rgba(87, 75, 75, 0.3) !important;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.logo-brand{
+    width: 14%;
+}
+
+.bg-blue-size{
+    height: 85%;
+}
+
+.rounded-bottom-border{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 70px;
+}
+
+.front-card {
+    margin: 2% auto;
+    padding: .1em 1em;
+    color: white;
+    max-width: 450px;
+    height: 200px;
+    border-radius: 11px;
+    background: linear-gradient(135deg, #45484d 0%,#000000 100%);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    transition: transform .3s ease, box-shadow .2s ease-in;
+}
+
+.mastercard-brand{
+    width: 15%;
+}
+
+.container-card{
+    padding: 1em;
+}
+
+.progress {
+    height: 0.5%;
+}
+
+.progress-bar {
+    background-color: #ffc107;
+}
+
+.tools-picture {
+    position: absolute;
+    bottom: 42%;
+    left: 40%;
+    z-index: 100;
+}
+
+.position{
+    position: relative;
+}
+
+.rounded-border{
+    border-radius: 20px;
+}
+
+.rounded-top-border{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.rounded-border-shadow{
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 1px 6px 1px rgba(0,0,0,0.23); 
+    box-shadow: -1px 1px 6px 1px rgba(0,0,0,0.23);
+}
+
+.border-upper-radius {
+    border-top-left-radius: 0;
+    border-top-right-radius: 50px;
+}
+  
+.border-downer-radius {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 0;
+}
+  
+.container-bloc{
+    margin-top : 100px; 
+    margin-bottom : 100px; 
+    
+}
+
+.container-bloc-technology{
+    margin-top : 200px; 
+}
+
+.yellow{
+    color: #ffc107;
+}
+
+.awards{
+    padding-bottom: 210px;
+}
+
+
+.transform-y{
+    transform: translateY(-70px);
+}
+
+.pic-person{
+    width: 15%;
+    margin-right: -5%;
+}
+
+.col-card{
+    max-width: none;
+    width: 79vw;
+    padding: 0;
+}
+
+.transform-y-awards{
+    transform: translateY(70px);
+}
+
+.card:first-of-type{
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+.card:not(:first-of-type):not(:last-of-type){
+    border-top-left-radius: 10px !important ;
+    border-top-right-radius: 10px !important;
+    border-bottom: none !important;
+    border-radius: 10px !important;
+}
+
+.card:last-of-type {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.card-header{
+    background-color: #ffffff;
+}
+
+.helpful {
+    padding-bottom:120px ;
+}
+
+.app-btn {     
+    width: 45%;
+    max-width: 160px;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 10px;
+}
+
+.blu{
+    background-color: #101010;
+    transition: background-color 0.25s linear;
+}
+
+.big-txt {
+    font-size: 17px;
+    text-transform: capitalize;
+   }
+
+.app{
+    width: 30%;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 3px;
+}
+    
+@media (max-width: 992px) { 
+    .col-card {
+        width: 88vw;
+    }
+
+    .card-responsive{
+        padding-right: 10px;
+        padding-left: 10px;
+        height: fit-content;
+    }
+}
